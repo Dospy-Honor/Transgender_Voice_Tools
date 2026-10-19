@@ -1,0 +1,83 @@
+<Page x:Class="VoiceTools.Analysis_Page" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Background="#CFD8DD" Loaded="Page_Loaded" Unloaded="Page_Unloaded">
+ <Grid>
+  <Grid.RowDefinitions><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+  <Grid x:Name="ReadingPanel" Background="#455D68">
+   <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+   <StackPanel Margin="16,18,16,8" Spacing="8">
+    <TextBlock Text="录音并朗读以下长文：" Foreground="White" FontSize="18"/>
+    <TextBlock Text="可直接编辑或粘贴自己的文章。录完后点击停止，分析整段录音。" Foreground="#D1DBDF" TextWrapping="Wrap" FontSize="12"/>
+   </StackPanel>
+   <TextBox x:Name="Passage" Grid.Row="1" Margin="12,0" FontSize="18" FontWeight="SemiBold" Foreground="White" Background="Transparent" BorderThickness="0" TextWrapping="Wrap" AcceptsReturn="True" ScrollViewer.VerticalScrollBarVisibility="Auto" AutomationProperties.Name="朗读长文">
+    <TextBox.Resources>
+     <SolidColorBrush x:Key="TextControlBackgroundFocused" Color="#455D68"/>
+     <SolidColorBrush x:Key="TextControlBackgroundPointerOver" Color="#455D68"/>
+     <SolidColorBrush x:Key="TextControlForegroundFocused" Color="White"/>
+     <SolidColorBrush x:Key="TextControlForegroundPointerOver" Color="White"/>
+    </TextBox.Resources>
+   </TextBox>
+   <StackPanel Grid.Row="2">
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Spacing="12" Margin="8">
+     <Button x:Name="ImportButton" Content="打开 WAV 文件" Click="Import_Click"/>
+     <Button x:Name="AnalyzeButton" Content="分析已有录音" Click="Analyze_Click" IsEnabled="False"/>
+    </StackPanel>
+    <Button x:Name="RecordButton" Click="Record_Click" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" Background="#FF4B52" BorderThickness="0" MinHeight="58" Foreground="Black">
+     <StackPanel Orientation="Horizontal" Spacing="12"><SymbolIcon x:Name="RecordIcon" Symbol="Microphone"/><TextBlock x:Name="RecordLabel" Text="录制全文" FontSize="20"/><TextBlock x:Name="TimerText" Text="00:00" FontSize="20"/></StackPanel>
+    </Button>
+   </StackPanel>
+  </Grid>
+  <Grid x:Name="ResultsPanel" Visibility="Collapsed">
+   <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+   <Grid Background="#455D68" Padding="8">
+    <Grid.ColumnDefinitions><ColumnDefinition Width="Auto"/><ColumnDefinition/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+    <Button Content="‹ 返回" Click="Back_Click" Background="Transparent" Foreground="White" BorderThickness="0"/>
+    <TextBlock Grid.Column="1" Text="结果" Foreground="White" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <Button x:Name="ListenButton" Grid.Column="2" Content="▶ 回听" Click="Listen_Click" Background="Transparent" Foreground="White" BorderThickness="0"/>
+   </Grid>
+   <ScrollViewer Grid.Row="1">
+    <StackPanel>
+     <Border Background="#455D68">
+      <Viewbox Stretch="Uniform" MaxHeight="290" HorizontalAlignment="Center">
+       <Canvas Width="390" Height="270">
+        <TextBlock Text="350 Hz" Foreground="#CFD8DD" FontSize="16" Canvas.Left="16" Canvas.Top="10"/>
+        <TextBlock Text="50 Hz" Foreground="#CFD8DD" FontSize="16" Canvas.Left="22" Canvas.Top="242"/>
+        <Rectangle Width="26" Height="240" Fill="#CFD8DD" Canvas.Left="86" Canvas.Top="12"/>
+        <Rectangle x:Name="GaugeFemale" Width="26" Height="104" Fill="#FFB5C5" Canvas.Left="86" Canvas.Top="44"/>
+        <Rectangle x:Name="GaugeNeutral" Width="26" Height="12" Fill="#CCCCCC" Canvas.Left="86" Canvas.Top="148"/>
+        <Rectangle x:Name="GaugeMale" Width="26" Height="64" Fill="#A8D6E5" Canvas.Left="86" Canvas.Top="160"/>
+        <Rectangle x:Name="AverageMarker" Width="40" Height="3" Fill="White" Canvas.Left="79" Canvas.Top="140" Visibility="Collapsed"/>
+        <Grid Width="105" Height="105" Canvas.Left="182" Canvas.Top="12"><Ellipse Fill="#CFD8DD"/><TextBlock x:Name="AverageBubble" Text="— Hz" FontSize="23" FontWeight="SemiBold" HorizontalAlignment="Center" VerticalAlignment="Center"/></Grid>
+        <Grid Width="105" Height="105" Canvas.Left="145" Canvas.Top="122"><Ellipse x:Name="FemaleCircle" Fill="#FFB5C5"/><TextBlock x:Name="FemalePercent" Text="—" FontSize="23" HorizontalAlignment="Center" VerticalAlignment="Center"/></Grid>
+        <Grid Width="66" Height="66" Canvas.Left="268" Canvas.Top="161"><Ellipse x:Name="MaleCircle" Fill="#A8D6E5"/><TextBlock x:Name="MalePercent" Text="—" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center"/></Grid>
+        <TextBlock x:Name="FemaleLabel" Text="女性音高区" Foreground="#CFD8DD" FontSize="14" Canvas.Left="161" Canvas.Top="234"/>
+        <TextBlock x:Name="MaleLabel" Text="男性音高区" Foreground="#CFD8DD" FontSize="14" Canvas.Left="266" Canvas.Top="234"/>
+       </Canvas>
+      </Viewbox>
+     </Border>
+     <StackPanel Padding="20" Spacing="12" MaxWidth="680" HorizontalAlignment="Stretch">
+      <TextBlock x:Name="OtherPercent" Text="过渡区 — · 区间外 —" FontSize="16" TextWrapping="Wrap"/>
+      <TextBlock Text="音高" FontSize="18"/>
+      <Grid Margin="16,0"><Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+       <TextBlock Text="平均值&#xA;中位数&#xA;高位（95%分位）&#xA;低位（5%分位）" FontSize="17" LineHeight="28"/>
+       <TextBlock x:Name="PitchValues" Grid.Column="1" FontSize="17" LineHeight="28" TextAlignment="Right"/>
+      </Grid>
+      <TextBlock Text="音量（dBFS）" FontSize="18"/>
+      <Grid Margin="16,0"><Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+       <TextBlock Text="平均电平&#xA;中位数&#xA;高位（95%分位）&#xA;低位（5%分位）" FontSize="17" LineHeight="28"/>
+       <TextBlock x:Name="VolumeValues" Grid.Column="1" FontSize="17" LineHeight="28" TextAlignment="Right"/>
+      </Grid>
+      <TextBlock x:Name="CoverageText" TextWrapping="Wrap"/>
+      <TextBlock Text="百分比按有效音高时长计算；静音与无法识别部分不参与区间占比。范围固定，与实时音高页一致。" FontSize="12" TextWrapping="Wrap"/>
+      <TextBlock Text="这是音高分布，不是整体声音的性别判断。" FontSize="12" TextWrapping="Wrap"/>
+      <Button x:Name="SaveButton" Content="保存录音 WAV" Click="Save_Click"/>
+     </StackPanel>
+    </StackPanel>
+   </ScrollViewer>
+  </Grid>
+  <StackPanel Grid.Row="1" Background="#E9EEF0" Padding="12,6" Spacing="5">
+   <TextBlock x:Name="StatusText" Text="全文录音会暂存为本地 WAV；离开分析页后删除临时录音，可在结果页另存。" TextWrapping="Wrap" FontSize="12"/>
+   <ProgressBar x:Name="AnalysisProgress" Visibility="Collapsed" Minimum="0" Maximum="100"/>
+  </StackPanel>
+ </Grid>
+</Page>
+
+

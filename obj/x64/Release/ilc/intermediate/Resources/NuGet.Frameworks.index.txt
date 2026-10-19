@@ -1,0 +1,2 @@
+NuGet.Frameworks, Version=6.8.0.131, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+  NuGet.Frameworks.Strings.resources

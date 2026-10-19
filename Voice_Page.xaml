@@ -1,0 +1,55 @@
+﻿<Page x:Class="VoiceTools.Voice_Page" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Background="#CFD8DD" Loaded="Page_Loaded" Unloaded="Page_Unloaded">
+ <Grid>
+  <Grid.RowDefinitions><RowDefinition Height="*"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+  <Grid x:Name="PitchPanel"><Canvas x:Name="Chart" SizeChanged="Chart_SizeChanged"/>
+   <TextBlock x:Name="TransportText" Margin="8" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="12" Foreground="#34444C" IsHitTestVisible="False"/>
+   <Button x:Name="ResumeRecordingButton" Content="继续录音" Click="ResumeRecording_Click" Visibility="Collapsed" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="8"/>
+  </Grid>
+  <Grid x:Name="TonePanel" Visibility="Collapsed" Background="#455D68">
+   <Grid.RowDefinitions><RowDefinition Height="*"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+   <Grid>
+    <Grid.RowDefinitions><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="8">
+     <TextBlock x:Name="TonePitchText" Text="---" FontSize="58" Foreground="White" HorizontalAlignment="Center"/>
+     <TextBlock x:Name="ToneNoteText" Text="" FontSize="24" Foreground="White" HorizontalAlignment="Center"/>
+    </StackPanel>
+    <StackPanel Grid.Row="1" Margin="8,8,8,0">
+     <TextBlock Text="按住下方音符试听，同时观察自己的音调" Foreground="Black" TextAlignment="Center" FontSize="16" TextWrapping="Wrap"/>
+     <TextBlock Text="建议使用耳机，避免麦克风拾取参考音" Foreground="#D1DBDF" TextAlignment="Center" FontSize="12" Margin="0,3,0,5" TextWrapping="Wrap"/>
+    </StackPanel>
+   </Grid>
+   <Grid x:Name="ToneKeyboard" Grid.Row="1"/>
+  </Grid>
+  <StackPanel x:Name="VolumePanel" Visibility="Collapsed" VerticalAlignment="Center" Margin="24" Spacing="20">
+   <TextBlock Text="输入音量" FontSize="30" HorizontalAlignment="Center"/>
+   <ProgressBar x:Name="Level" Minimum="-90" Maximum="0" Value="-90" Height="24"/>
+   <TextBlock x:Name="LevelText" Text="输入电平 — dBFS" HorizontalAlignment="Center"/>
+   <TextBlock Text="这是麦克风数字输入电平，不是环境声压级。" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+  </StackPanel>
+  <StackPanel x:Name="StatsPanel" Visibility="Collapsed" VerticalAlignment="Center" Margin="24" Spacing="18">
+   <TextBlock Text="当前音高" HorizontalAlignment="Center"/>
+   <TextBlock x:Name="PitchText" Text="— Hz" FontSize="44" HorizontalAlignment="Center"/>
+   <TextBlock x:Name="BandText" Text="等待声音" HorizontalAlignment="Center"/>
+   <TextBlock Text="最近有效音高中位数" HorizontalAlignment="Center"/>
+   <TextBlock x:Name="MedianText" Text="— Hz" FontSize="32" HorizontalAlignment="Center"/>
+   <Button Content="清除录音和统计" Click="Clear_Click" HorizontalAlignment="Center"/>
+  </StackPanel>
+  <Border x:Name="StatusBar" Grid.Row="1" Background="#E9EEF0" Padding="10,5">
+   <Grid><Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+    <TextBlock x:Name="StatusText" Text="正在连接麦克风…" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="12"/>
+    <Button x:Name="RetryButton" Grid.Column="1" Content="重试" Click="Retry_Click" Visibility="Collapsed"/>
+   </Grid>
+  </Border>
+  <Grid x:Name="ReadingBar" Grid.Row="2" Background="#455D68" MinHeight="64">
+   <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition Width="64"/></Grid.ColumnDefinitions>
+   <Button Click="Next_Click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="Transparent" BorderThickness="0" Padding="16,8" ToolTipService.ToolTip="点击切换练习句">
+    <TextBlock x:Name="SentenceText" FontSize="18" Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center"/>
+   </Button>
+   <Button x:Name="ReplayButton" Grid.Column="1" Click="Replay_Click" Background="#FF464C" BorderThickness="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Padding="0" AutomationProperties.Name="回听最近录音">
+    <StackPanel><Image x:Name="ReplayIcon" Source="Assets/ic_play_arrow_white_24.png" Width="28" Height="28"/><TextBlock x:Name="ReplaySecondsText" Text="10" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" Foreground="Black"/></StackPanel>
+   </Button>
+  </Grid>
+ </Grid>
+</Page>
+
+

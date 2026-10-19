@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="565d3300-9bdf-4bb4-8abb-7f3c4cee6b65" version="1.0" primary="true">
+		<Qualifiers>
+			<AlternateForm>LIGHTUNPLATED,UNPLATED</AlternateForm>
+			<Language>EN-US</Language>
+			<Scale>200</Scale>
+			<TargetSize>256,16,24,32,48</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="Analysis_Page.xbf" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/Files/Analysis_Page.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="App.xbf" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/Files/MainPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Sentences_Page.xbf" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/Files/Sentences_Page.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Settings_Page.xbf" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/Files/Settings_Page.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="VoiceTools.xr.xml" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/Files/VoiceTools.xr.xml">
+				<Candidate type="Path">
+					<Value>VoiceTools.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Voice_Page.xbf" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/Files/Voice_Page.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="ic_play_arrow_white_24.png" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/Files/Assets/ic_play_arrow_white_24.png">
+					<Candidate type="Path">
+						<Value>Assets\ic_play_arrow_white_24.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ic_stop_white_24.png" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/Files/Assets/ic_stop_white_24.png">
+					<Candidate type="Path">
+						<Value>Assets\ic_stop_white_24.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LargeTile.png" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/Files/Assets/LargeTile.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LargeTile.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LargeTile_old.png" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/Files/Assets/LargeTile_old.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LargeTile_old.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LockScreenLogo.png" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/Files/Assets/LockScreenLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LockScreenLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LockScreenLogo_old.png" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/Files/Assets/LockScreenLogo_old.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LockScreenLogo_old.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallTile.png" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/Files/Assets/SmallTile.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SmallTile.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallTile_old.png" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/Files/Assets/SmallTile_old.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SmallTile_old.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen_old.png" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/Files/Assets/SplashScreen_old.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen_old.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/Files/Assets/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square150x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo_old.png" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/Files/Assets/Square150x150Logo_old.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square150x150Logo_old.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/Files/Assets/Square44x44Logo.png">
+					<Candidate qualifiers="TargetSize-48, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-48, AlternateForm-LIGHTUNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-48" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32, AlternateForm-LIGHTUNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256, AlternateForm-LIGHTUNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-24, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-24, AlternateForm-LIGHTUNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-24" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-24.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16, AlternateForm-LIGHTUNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo_old.png" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/Files/Assets/Square44x44Logo_old.png">
+					<Candidate qualifiers="TargetSize-48, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo_old.altform-unplated_targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-48, AlternateForm-LIGHTUNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo_old.altform-lightunplated_targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-48" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo_old.targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo_old.altform-unplated_targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32, AlternateForm-LIGHTUNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo_old.altform-lightunplated_targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo_old.targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo_old.altform-unplated_targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256, AlternateForm-LIGHTUNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo_old.altform-lightunplated_targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo_old.targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-24, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo_old.targetsize-24_altform-unplated.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-24, AlternateForm-LIGHTUNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo_old.altform-lightunplated_targetsize-24.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-24" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo_old.targetsize-24.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo_old.altform-unplated_targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16, AlternateForm-LIGHTUNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo_old.altform-lightunplated_targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo_old.targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo_old.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo_old.png" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/Files/Assets/StoreLogo_old.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo_old.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/Files/Assets/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo_old.png" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/Files/Assets/Wide310x150Logo_old.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo_old.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Properties">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/Files/Properties/Default.rd.xml">
+					<Candidate type="Path">
+						<Value>Properties\Default.rd.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinMetadata">
+				<NamedResource name="Windows.winmd" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/Files/WinMetadata/Windows.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Windows.winmd</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="NuGet.Frameworks.Strings">
+			<NamedResource name="ArgumentCannotBeNullOrEmpty" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/NuGet.Frameworks.Strings/ArgumentCannotBeNullOrEmpty">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The argument cannot be null or empty.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="FrameworkDoesNotSupportProfiles" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/NuGet.Frameworks.Strings/FrameworkDoesNotSupportProfiles">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>.NET 5.0 and above does not support profiles.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="FrameworkMismatch" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/NuGet.Frameworks.Strings/FrameworkMismatch">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Frameworks must have the same identifier, profile, and platform.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidFrameworkIdentifier" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/NuGet.Frameworks.Strings/InvalidFrameworkIdentifier">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Invalid framework identifier '{0}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidFrameworkVersion" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/NuGet.Frameworks.Strings/InvalidFrameworkVersion">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Invalid framework version '{0}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidPlatformVersion" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/NuGet.Frameworks.Strings/InvalidPlatformVersion">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Invalid platform version '{0}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidPortableFrameworksDueToHyphen" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/NuGet.Frameworks.Strings/InvalidPortableFrameworksDueToHyphen">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Invalid portable frameworks '{0}'. A hyphen may not be in any of the portable framework names.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MissingPortableFrameworks" uri="ms-resource://565d3300-9bdf-4bb4-8abb-7f3c4cee6b65/NuGet.Frameworks.Strings/MissingPortableFrameworks">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Invalid portable frameworks for '{0}'. A portable framework must have at least one framework in the profile.</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

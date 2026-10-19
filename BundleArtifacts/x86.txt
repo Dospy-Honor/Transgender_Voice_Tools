@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Honor\Documents\Project\VoiceTools\bin\x86\Release\VoiceTools_1.0.1.0_x86.msix
+SymbolPackage=C:\Users\Honor\Documents\Project\VoiceTools\obj\x86\Release\Symbols\VoiceTools_1.0.1.0_x86.appxsym

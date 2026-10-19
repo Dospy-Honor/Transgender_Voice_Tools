@@ -1,0 +1,23 @@
+﻿<Page x:ConnectionId='1' x:Class="VoiceTools.Settings_Page" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Background="#F3F6FA"                     >
+ <ScrollViewer><StackPanel Padding="24" Spacing="18" MaxWidth="780" HorizontalAlignment="Stretch">
+  <TextBlock Text="设置" FontSize="30" FontWeight="SemiBold"/>
+  <ComboBox x:ConnectionId='2' x:Name="LanguageChoice" Header="语言"                                     HorizontalAlignment="Stretch"><ComboBoxItem Content="简体中文" Tag="zh-CN"/><ComboBoxItem Content="English" Tag="en-US"/></ComboBox>
+  <TextBlock Text="练习语句和默认长文只使用所选语言；自定义文本按语言分别保存。" TextWrapping="Wrap" FontSize="12"/>
+  <ToggleSwitch x:ConnectionId='3' x:Name="GenderChoice" Header="性别（色块）标记" OnContent="显示" OffContent="隐藏"                         />
+  <TextBlock Text="隐藏后使用中性色与数值区间，不改变统计结果。" TextWrapping="Wrap" FontSize="12"/>
+  <ComboBox x:ConnectionId='4' x:Name="ScaleChoice" Header="比例尺"                                  HorizontalAlignment="Stretch"><ComboBoxItem Content="ERB" Tag="ERB"/><ComboBoxItem Content="Mel" Tag="Mel"/><ComboBoxItem Content="Linear" Tag="Linear"/></ComboBox>
+  <TextBlock Text="只改变频率坐标的间距，读数和区间阈值仍以 Hz 表示。" TextWrapping="Wrap" FontSize="12"/>
+  <ComboBox x:ConnectionId='5' x:Name="ReplayDuration" Header="回听时长"                                     HorizontalAlignment="Stretch"><ComboBoxItem Content="5 秒" Tag="5"/><ComboBoxItem Content="10 秒" Tag="10"/><ComboBoxItem Content="20 秒" Tag="20"/><ComboBoxItem Content="30 秒" Tag="30"/></ComboBox>
+  <Button x:ConnectionId='6' Content="建议语句库"                             HorizontalAlignment="Stretch" HorizontalContentAlignment="Left"/>
+  <TextBox x:ConnectionId='7' x:Name="AnalysisText" Header="分析待读文本" AcceptsReturn="True" TextWrapping="Wrap" Height="220" MaxLength="50000" ScrollViewer.VerticalScrollBarVisibility="Auto"                              />
+  <StackPanel Orientation="Horizontal" Spacing="12"><Button x:ConnectionId='13' Content="保存文本"                       /><Button x:ConnectionId='14' Content="恢复默认文本"                        /></StackPanel>
+  <TextBlock x:ConnectionId='8' x:Name="TextStatus" TextWrapping="Wrap" FontSize="12"/>
+  <ComboBox x:ConnectionId='9' x:Name="InputChoice" Header="接收设备（麦克风）" DisplayMemberPath="Name"                                  HorizontalAlignment="Stretch"/>
+  <ComboBox x:ConnectionId='10' x:Name="OutputChoice" Header="播放设备" DisplayMemberPath="Name"                                   HorizontalAlignment="Stretch"/>
+  <Button x:ConnectionId='11' x:Name="RefreshButton" Content="刷新设备"                      />
+  <TextBlock Text="设备选择应用于实时分析、音调试听、长文录音和所有回听。设备断开时会提示重新选择。" TextWrapping="Wrap" FontSize="12"/>
+  <TextBlock x:ConnectionId='12' x:Name="DeviceStatus" TextWrapping="Wrap"/>
+  <TextBlock Text="设置自动保存；长文编辑后请点击保存文本。" TextWrapping="Wrap"/>
+ </StackPanel></ScrollViewer>
+</Page>
+

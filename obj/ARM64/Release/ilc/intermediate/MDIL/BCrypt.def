@@ -1,0 +1,11 @@
+LIBRARY BCrypt.dll
+EXPORTS
+   BCryptExportKey
+   BCryptGetProperty
+   BCryptCreateHash
+   BCryptDestroyKey
+   BCryptGenRandom
+
+   BCryptOpenAlgorithmProvider
+   BCryptCloseAlgorithmProvider
+   BCryptDestroyHash

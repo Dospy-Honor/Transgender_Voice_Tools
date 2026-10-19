@@ -1,0 +1,9 @@
+LIBRARY ncrypt.dll
+EXPORTS
+   NCryptGetProperty
+   NCryptSetProperty
+   NCryptImportKey
+   NCryptOpenStorageProvider
+   NCryptDeleteKey
+   NCryptOpenKey
+   NCryptFreeObject

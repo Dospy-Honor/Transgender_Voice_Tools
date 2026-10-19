@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Honor\\Documents\\Project\\VoiceTools\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{73F02EC9-2287-4A16-9ED1-E47B15D0F857}|VoiceTools.csproj|c:\\users\\honor\\documents\\project\\voicetools\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F02EC9-2287-4A16-9ED1-E47B15D0F857}|VoiceTools.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73F02EC9-2287-4A16-9ED1-E47B15D0F857}|VoiceTools.csproj|C:\\Users\\Honor\\Documents\\Project\\VoiceTools\\voice_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F02EC9-2287-4A16-9ED1-E47B15D0F857}|VoiceTools.csproj|solutionrelative:voice_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|VoiceTools||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73F02EC9-2287-4A16-9ED1-E47B15D0F857}|VoiceTools.csproj|C:\\Users\\Honor\\Documents\\Project\\VoiceTools\\settings_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{73F02EC9-2287-4A16-9ED1-E47B15D0F857}|VoiceTools.csproj|solutionrelative:settings_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73F02EC9-2287-4A16-9ED1-E47B15D0F857}|VoiceTools.csproj|C:\\Users\\Honor\\Documents\\Project\\VoiceTools\\voice_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{73F02EC9-2287-4A16-9ED1-E47B15D0F857}|VoiceTools.csproj|solutionrelative:voice_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73F02EC9-2287-4A16-9ED1-E47B15D0F857}|VoiceTools.csproj|C:\\Users\\Honor\\Documents\\Project\\VoiceTools\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}",
+      "RelativeMoniker": "D:0:0:{73F02EC9-2287-4A16-9ED1-E47B15D0F857}|VoiceTools.csproj|solutionrelative:package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73F02EC9-2287-4A16-9ED1-E47B15D0F857}|VoiceTools.csproj|C:\\Users\\Honor\\Documents\\Project\\VoiceTools\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{73F02EC9-2287-4A16-9ED1-E47B15D0F857}|VoiceTools.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Honor\\Documents\\Project\\VoiceTools\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Honor\\Documents\\Project\\VoiceTools\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T10:01:55.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VoiceTools",
+              "DocumentMoniker": "C:\\Users\\Honor\\Documents\\Project\\VoiceTools\\VoiceTools.csproj",
+              "RelativeDocumentMoniker": "VoiceTools.csproj",
+              "ToolTip": "C:\\Users\\Honor\\Documents\\Project\\VoiceTools\\VoiceTools.csproj",
+              "RelativeToolTip": "VoiceTools.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-10T09:57:36.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Settings_Page.xaml",
+              "DocumentMoniker": "C:\\Users\\Honor\\Documents\\Project\\VoiceTools\\Settings_Page.xaml",
+              "RelativeDocumentMoniker": "Settings_Page.xaml",
+              "ToolTip": "C:\\Users\\Honor\\Documents\\Project\\VoiceTools\\Settings_Page.xaml",
+              "RelativeToolTip": "Settings_Page.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-20T10:42:10.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Voice_Page.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Honor\\Documents\\Project\\VoiceTools\\Voice_Page.xaml.cs",
+              "RelativeDocumentMoniker": "Voice_Page.xaml.cs",
+              "ToolTip": "C:\\Users\\Honor\\Documents\\Project\\VoiceTools\\Voice_Page.xaml.cs",
+              "RelativeToolTip": "Voice_Page.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T10:55:55.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Voice_Page.xaml",
+              "DocumentMoniker": "C:\\Users\\Honor\\Documents\\Project\\VoiceTools\\Voice_Page.xaml",
+              "RelativeDocumentMoniker": "Voice_Page.xaml",
+              "ToolTip": "C:\\Users\\Honor\\Documents\\Project\\VoiceTools\\Voice_Page.xaml",
+              "RelativeToolTip": "Voice_Page.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-14T10:43:20.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Package.appxmanifest",
+              "DocumentMoniker": "C:\\Users\\Honor\\Documents\\Project\\VoiceTools\\Package.appxmanifest",
+              "RelativeDocumentMoniker": "Package.appxmanifest",
+              "ToolTip": "C:\\Users\\Honor\\Documents\\Project\\VoiceTools\\Package.appxmanifest*",
+              "RelativeToolTip": "Package.appxmanifest*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001793|",
+              "WhenOpened": "2024-02-08T12:41:35.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Honor\\Documents\\Project\\VoiceTools\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\Honor\\Documents\\Project\\VoiceTools\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-15T10:29:51.633Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
